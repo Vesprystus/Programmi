@@ -40,7 +40,7 @@ class IdentitaBezout
 	
 	public static void main(String[] args)
 	{
-		int a=40; int b=80;
+		int a=4193; int b=599;
 		
 		System.out.println("Ricorsiva MCD(" + a + "," + b + ") = " + BezoutRic(a,b));
 		System.out.println("Iterativa MCD(" + a + "," + b + ") = " + BezoutIt(a,b));

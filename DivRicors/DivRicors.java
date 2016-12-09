@@ -10,17 +10,14 @@ class DivRicors
 		}
 		else
 		{
-			if(ires<ib)
-			{
-				return 0;
-			}
+			return div(ires-ib,ib)+1;
 		}
-		return div(ires-ib,ib)+1;
+		
 	}
 
 	public static void main(String[] args)
 	{
-		int a=10; int b=3;
-		System.out.println("Il risultato di 10/3 e' :" + div(a,b));
+		int a=50; int b=3;
+		System.out.println("Il risultato di " + a + "/" + b + " e' :" + div(a,b));
 	}
 }
