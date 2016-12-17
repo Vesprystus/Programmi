@@ -90,7 +90,7 @@ public class VarieArray
 				boolean iS=esistonoMaggioriDiK(a,k,l,(l+r)/2);
 				boolean iR=esistonoMaggioriDiK(a,k,(l+r)/2+1,r); //si divide l'array in due parti, che richiamandosi verranno divise in due parti ecc.
 				
-				return iS&&iR&&true; //true se iS==iR==true
+				return iS&&iR; //true se iS tutti maggiori di k && iR tutti maggiori di k
 			}
 	}
 	
