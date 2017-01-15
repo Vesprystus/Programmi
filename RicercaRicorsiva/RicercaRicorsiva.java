@@ -8,7 +8,7 @@ class RicercaRicorsiva
 			return -1;
 	}
 	
-	private static int ricercaricorsiva(int[] a,int k,int l,int r) //cerca k in a e restituisce la posizione se esiste altrimenti -1
+	private static int ricercaricorsiva(int[] a, int k, int l, int r) //cerca k in a e restituisce la posizione se esiste altrimenti -1
 	{
 		if(l==r)
 		{
